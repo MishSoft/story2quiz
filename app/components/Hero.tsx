@@ -17,9 +17,12 @@ export default function Hero() {
           <button className="bg-indigo-600 text-white px-6 py-3 rounded-xl font-semibold hover:bg-indigo-700 transition">
             ატვირთე PDF
           </button>
-          <button className="bg-white border border-gray-300 px-6 py-3 rounded-xl font-semibold text-gray-700 hover:bg-gray-100 transition">
+          <a
+            href="/pages/howitworks"
+            className="bg-white border border-gray-300 px-6 py-3 rounded-xl font-semibold text-gray-700 hover:bg-gray-100 transition"
+          >
             ნახე როგორ მუშაობს
-          </button>
+          </a>
         </div>
         <div className="mt-16">
           <img

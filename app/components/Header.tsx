@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 
 export default function Header() {
@@ -11,31 +12,31 @@ export default function Header() {
       <nav className="flex items-center gap-[20px]">
         <a
           className="p-2 bg-gray-100 rounded-3xl hover:bg-gray-50 transition-all duration-200"
-          href="#"
+          href="/pages/home"
         >
           მთავარი
         </a>
         <a
           className="p-2 bg-gray-100 rounded-3xl hover:bg-gray-50 transition-all duration-200"
-          href="#"
+          href="/pages/services"
         >
           სერვისები
         </a>
         <a
           className="p-2 bg-gray-100 rounded-3xl hover:bg-gray-50 transition-all duration-200"
-          href="#"
+          href="/pages/aieducation"
         >
           AI განათლება
         </a>
         <a
           className="p-2 bg-gray-100 rounded-3xl hover:bg-gray-50 transition-all duration-200"
-          href="#"
+          href="/pages/about"
         >
           ჩვენს შესახებ
         </a>
         <a
           className="p-2 bg-gray-100 rounded-3xl hover:bg-gray-50 transition-all duration-200"
-          href="#"
+          href="/pages/contact"
         >
           კონტაქტი
         </a>
